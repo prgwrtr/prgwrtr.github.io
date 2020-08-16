@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #37b;
+  text-align: center;
+  padding: 1em;
+}
+
+p {
+  padding: 0px 30px;
+}
+
+/* http://1linelayouts.glitch.me/ */
+.widget-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.widget {
+  flex: 1 1 300px;
+  margin: 20px;
+  border: 1px solid #5af;
+}
+
+.widget h3 {
+  padding: 1em;
+  margin: 0px;
+  text-align: center;
+  color: #fff;
+  background-color: #5af;
+}
+
+.widget .content {
+  padding: 20px 20px 40px 20px;
+  margin: 0px;
+  color: #345;
+  background-color: #f7faff;
+  line-height: 2;
+}
+
+.row {
+  padding: 10px 0px;
+}
