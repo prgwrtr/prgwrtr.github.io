@@ -55,3 +55,9 @@ p {
 .row {
   padding: 10px 0px;
 }
+
+select,
+input {
+  line-height: 1.8;
+  padding: 0.2em 0.5em;
+}
